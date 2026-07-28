@@ -2,9 +2,6 @@
 Arduino-based LPG Leak and Weight Monitoring System using MQ2 Gas Sensor and HX711 Load Cell.
 
 
-# Smart Gas Guard
-
-## LPG Leak and Weight Monitoring System
 
 An Arduino-based smart safety system designed to detect LPG gas leakage and continuously monitor the weight of an LPG cylinder.
 
