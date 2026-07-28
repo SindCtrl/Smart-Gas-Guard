@@ -1,0 +1,10 @@
+Smart Gas Guard – LPG Leak and Weight Monitoring System
+Project Overview
+
+The Smart Gas Guard is an Arduino-based embedded system designed to improve the safety and efficiency of Liquefied Petroleum Gas (LPG) usage by integrating real-time gas leak detection with cylinder weight monitoring. The system continuously monitors the LPG concentration in the surrounding environment while simultaneously measuring the remaining weight of the gas cylinder. This dual functionality helps users detect hazardous gas leaks at an early stage and monitor the available gas level to avoid unexpected depletion.
+
+The system is built around the Arduino Uno microcontroller, which processes data received from the gas sensor and load cell. An MQ-series gas sensor detects LPG leakage by continuously measuring gas concentration. A load cell interfaced with the HX711 amplifier module measures the weight of the LPG cylinder with high accuracy. The measured values and system status are displayed on a 16×2 LCD display for real-time monitoring.
+
+Whenever the gas concentration exceeds the predefined safety threshold, the Arduino immediately activates a buzzer, switches the LED indicators, displays an alert message on the LCD, and energizes a relay to initiate safety actions. Under normal operating conditions, the system continuously displays the gas level and cylinder weight, allowing users to monitor the system without interruption.
+
+The Smart Gas Guard addresses two common problems associated with LPG usage: accidental gas leakage and the inability to determine the remaining gas quantity inside the cylinder. By combining these two functions into a single embedded system, the project improves user safety, minimizes operational risks, and enhances resource utilization in both residential and industrial environments.
